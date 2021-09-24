@@ -1,0 +1,27 @@
+Collecting yfinance
+  Downloading yfinance-0.1.63.tar.gz (26 kB)
+Requirement already satisfied: pandas>=0.24 in c:\users\casper\.conda\envs\ml\lib\site-packages (from yfinance) (1.0.3)
+Requirement already satisfied: numpy>=1.15 in c:\users\casper\.conda\envs\ml\lib\site-packages (from yfinance) (1.18.1)
+Requirement already satisfied: requests>=2.20 in c:\users\casper\.conda\envs\ml\lib\site-packages (from yfinance) (2.22.0)
+Collecting multitasking>=0.0.7
+  Downloading multitasking-0.0.9.tar.gz (8.1 kB)
+Requirement already satisfied: lxml>=4.5.1 in c:\users\casper\.conda\envs\ml\lib\site-packages (from yfinance) (4.6.3)
+Requirement already satisfied: python-dateutil>=2.6.1 in c:\users\casper\.conda\envs\ml\lib\site-packages (from pandas>=0.24->yfinance) (2.8.2)
+Requirement already satisfied: pytz>=2017.2 in c:\users\casper\.conda\envs\ml\lib\site-packages (from pandas>=0.24->yfinance) (2020.1)
+Requirement already satisfied: six>=1.5 in c:\users\casper\.conda\envs\ml\lib\site-packages (from python-dateutil>=2.6.1->pandas>=0.24->yfinance) (1.15.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\casper\.conda\envs\ml\lib\site-packages (from requests>=2.20->yfinance) (2020.12.5)
+Requirement already satisfied: idna<2.9,>=2.5 in c:\users\casper\.conda\envs\ml\lib\site-packages (from requests>=2.20->yfinance) (2.8)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\users\casper\.conda\envs\ml\lib\site-packages (from requests>=2.20->yfinance) (1.25.8)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\users\casper\.conda\envs\ml\lib\site-packages (from requests>=2.20->yfinance) (3.0.4)
+Building wheels for collected packages: yfinance, multitasking
+  Building wheel for yfinance (setup.py): started
+  Building wheel for yfinance (setup.py): finished with status 'done'
+  Created wheel for yfinance: filename=yfinance-0.1.63-py2.py3-none-any.whl size=23924 sha256=90356d9a5a9b92aa67c3898370d6cd0fb194d7a02b98828f8379be60b7cd2487
+  Stored in directory: c:\users\casper\appdata\local\pip\cache\wheels\fe\87\8b\7ec24486e001d3926537f5f7801f57a74d181be25b11157983
+  Building wheel for multitasking (setup.py): started
+  Building wheel for multitasking (setup.py): finished with status 'done'
+  Created wheel for multitasking: filename=multitasking-0.0.9-py3-none-any.whl size=8382 sha256=d1714d4d9985c472e63353f44b6db6cd42109e0afef755ccd21a86629eed32ae
+  Stored in directory: c:\users\casper\appdata\local\pip\cache\wheels\ae\25\47\4d68431a7ec1b6c4b5233365934b74c1d4e665bf5f968d363a
+Successfully built yfinance multitasking
+Installing collected packages: multitasking, yfinance
+Successfully installed multitasking-0.0.9 yfinance-0.1.63
